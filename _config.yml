@@ -65,6 +65,15 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 theme: hexo-theme-laughing
 
+#RSS订阅
+plugin:
+- hexo-generator-feed
+
+#Feed Atom
+feed:
+  type: atom
+  path: atom.xml
+
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
